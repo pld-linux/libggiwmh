@@ -1,15 +1,15 @@
 Summary:	LibGGIWMH - Window Manager Hint extension
 Summary(pl):	LibGGIWMH - rozszerzenie podpowiedzi dla zarz±dców okien
 Name:		libggiwmh
-Version:	0.2.1
+Version:	0.2.2
 Release:	1
 License:	Public Domain
 Group:		Libraries
-Source0:	http://www.ggi-project.org/ftp/ggi/current/%{name}-%{version}.src.tar.bz2
-# Source0-md5:	81c458962b694a495999d03584753c33
+Source0:	http://www.ggi-project.org/ftp/ggi/v2.1/%{name}-%{version}.src.tar.bz2
+# Source0-md5:	42f51c7496508f17d524ea1f9b10a0e0
 URL:		http://www.ggi-project.org/packages/libggiwmh.html
 BuildRequires:	XFree86-devel
-BuildRequires:	libggi-devel >= 2.1.0
+BuildRequires:	libggi-devel >= 2.1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,7 +26,7 @@ Summary:	Header files for libggiwmh library
 Summary(pl):	Pliki nag³ówkowe biblioteki libggiwmh
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	libggi-devel >= 2.1.0
+Requires:	libggi-devel >= 2.1.2
 
 %description devel
 Header files for libggiwmh library.
