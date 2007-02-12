@@ -1,5 +1,5 @@
 Summary:	LibGGIWMH - Window Manager Hint extension
-Summary(pl):	LibGGIWMH - rozszerzenie podpowiedzi dla zarz±dcÛw okien
+Summary(pl.UTF-8):   LibGGIWMH - rozszerzenie podpowiedzi dla zarzƒÖdc√≥w okien
 Name:		libggiwmh
 Version:	0.2.2
 Release:	1
@@ -16,14 +16,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 LibGGIWMH is an extension for GGI targets that are window system based
 to allow access to things like setting the title bar, resizing, etc..
 
-%description -l pl
-LibGGIWMH to rozszerzenie dla modu≥Ûw wy∂wietlaj±cych GGI opartych na
-zarz±dcach okien, maj±ce na celu dostÍp do moøliwo∂ci takich jak
-ustawianie belki tytu≥owej okienka, zmianÍ rozmiaru itp.
+%description -l pl.UTF-8
+LibGGIWMH to rozszerzenie dla modu≈Ç√≥w wy≈õwietlajƒÖcych GGI opartych na
+zarzƒÖdcach okien, majƒÖce na celu dostƒôp do mo≈ºliwo≈õci takich jak
+ustawianie belki tytu≈Çowej okienka, zmianƒô rozmiaru itp.
 
 %package devel
 Summary:	Header files for libggiwmh library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libggiwmh
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libggiwmh
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libggi-devel >= 2.1.2
@@ -31,19 +31,19 @@ Requires:	libggi-devel >= 2.1.2
 %description devel
 Header files for libggiwmh library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libggiwmh.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libggiwmh.
 
 %package X
 Summary:	X target for libggiwmh library
-Summary(pl):	Wtyczka X dla biblioteki libggiwmh
+Summary(pl.UTF-8):   Wtyczka X dla biblioteki libggiwmh
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description X
 X target for libggiwmh library.
 
-%description X -l pl
+%description X -l pl.UTF-8
 Wtyczka X dla biblioteki libggiwmh.
 
 %prep
