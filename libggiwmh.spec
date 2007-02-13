@@ -1,5 +1,5 @@
 Summary:	LibGGIWMH - Window Manager Hint extension
-Summary(pl.UTF-8):   LibGGIWMH - rozszerzenie podpowiedzi dla zarządców okien
+Summary(pl.UTF-8):	LibGGIWMH - rozszerzenie podpowiedzi dla zarządców okien
 Name:		libggiwmh
 Version:	0.2.2
 Release:	1
@@ -23,7 +23,7 @@ ustawianie belki tytułowej okienka, zmianę rozmiaru itp.
 
 %package devel
 Summary:	Header files for libggiwmh library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libggiwmh
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libggiwmh
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libggi-devel >= 2.1.2
@@ -36,7 +36,7 @@ Pliki nagłówkowe biblioteki libggiwmh.
 
 %package X
 Summary:	X target for libggiwmh library
-Summary(pl.UTF-8):   Wtyczka X dla biblioteki libggiwmh
+Summary(pl.UTF-8):	Wtyczka X dla biblioteki libggiwmh
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
 
